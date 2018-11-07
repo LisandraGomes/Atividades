@@ -1,0 +1,20 @@
+6- Faça um algoritmo que possa entrar com o saldo de sua caderneta de poupança e
+ imprima o novo saldo que teve reajuste de 3%. 
+-------------------------------------------------------------------------------------
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+    
+    public static void main(String[] args) {
+        Scanner batata= new Scanner(System.in);
+        System.out.println("Insira Saldo:");
+        int saldo = batata.nextInt(); 
+        int resultado = (saldo+(saldo*3/100)); 
+       
+        System.out.println("---------------------------------");
+        System.out.println(" Seu saldo será:" + resultado);
+        System.out.println("---------------------------------");
+    }
+}

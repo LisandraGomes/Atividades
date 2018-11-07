@@ -1,0 +1,24 @@
+11-	Faça um algoritmo que leia o tempo de duração de um evento
+ em uma fábrica expressa em segundos e mostre-o expresso em horas, minutos e segundos. 
+-------------------------------------------------------------------------------------------------------
+ package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+    
+    public static void main(String[] args) {
+        Scanner batata= new Scanner(System.in);
+        System.out.println("Insira duração em Horas:");
+        float tempo = batata.nextFloat();
+        float resultadomin=(tempo*60);
+        float resultadoseg = (tempo*3600);
+        
+        System.out.println("---------------------------------");
+        System.out.println("Em Horas: "+ tempo);
+        System.out.println("Em minutos: "+ resultadomin);
+        System.out.println("Em segundos: "+ resultadoseg);
+        System.out.println("---------------------------------");
+    }
+}
+

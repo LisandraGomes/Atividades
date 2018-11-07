@@ -1,0 +1,30 @@
+9-Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre: 
+a)o produto do dobro do primeiro com metade do segundo . 
+b)a soma do triplo do primeiro com o terceiro. 
+c)o terceiro elevado ao cubo.  
+----------------------------------------------------------------------------------------------------
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+    
+    public static void main(String[] args) {
+        Scanner batata= new Scanner(System.in);
+        System.out.println("Insira um número inteiro:");
+        int numa = batata.nextInt(); 
+        System.out.println("Insira um número inteiro:");
+        int numb = batata.nextInt();
+        System.out.println("Insira um número real:");
+        float numc = batata.nextFloat();
+        float resultadoa = (numa*numb*(numb/2)); 
+        float resultadob = ((numa*3)+numc);
+        float resultadoc = (numc*numc*numc);
+        System.out.println("---------------------------------");
+        System.out.println("Produto do dobro do primeiro com a metade do segundo: "+ resultadoa);
+        System.out.println("A soma do triplo do primeiro com o terceiro: "+ resultadob);
+        System.out.println("O terceiro ao cubo: "+ resultadoc);
+        System.out.println("---------------------------------");
+    }
+}
+ 

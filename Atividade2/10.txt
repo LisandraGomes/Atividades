@@ -1,0 +1,21 @@
+10-	Tendo como dados de entrada a altura de uma pessoa, construa 
+um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) – 58. 
+-----------------------------------------------------------------------------------------------------
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+    
+    public static void main(String[] args) {
+        Scanner batata= new Scanner(System.in);
+         System.out.println("OBS: utilize vírgula para separar as casas decimais.");
+        System.out.println("Insira sua altura:");
+        float altura = batata.nextFloat(); 
+       
+        double resultado = (72.7*altura)-58;
+        System.out.println("---------------------------------");
+        System.out.println(" Seu peso ideal é: "+ resultado);
+        System.out.println("---------------------------------");
+    }
+}

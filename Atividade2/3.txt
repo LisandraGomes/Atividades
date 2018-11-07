@@ -1,0 +1,23 @@
+3- Faça um Programa que pergunte quanto você ganha por hora e o número 
+de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês. 
+---------------------------------------------------------------------------------------------------
+ package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+    
+    public static void main(String[] args) {
+        Scanner batata= new Scanner(System.in);
+        System.out.println("Quanto ganha por hora:");
+        float numa = batata.nextInt();
+        System.out.println("Horas Trabalhadas/mês:");
+        float numb = batata.nextFloat();
+        double resultado = (numa*numb) 
+        
+        System.out.println("Resultado:"+ resultado);
+        System.out.println("---------------------------------");
+        System.out.println("         Salário:" + resultado);
+        System.out.println("---------------------------------");
+    }
+}

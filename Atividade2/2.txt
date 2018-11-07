@@ -1,0 +1,30 @@
+ 
+2-	Entrar com dois números inteiros e imprimir a seguinte saída: 
+       Dividendo:        Divisor: 
+       Quociente: 
+       Resto: 
+------------------------------------------------------------------------------------
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+    
+    public static void main(String[] args) {
+        Scanner batata= new Scanner(System.in);
+        System.out.println("Número:");
+        float numa = batata.nextInt();
+        System.out.println("Dividido por:");
+        float numb = batata.nextInt();
+        double Resultado = numa/numb 
+        
+                System.out.println("Resultado:"+ Resultado);
+        System.out.println("---------------------------------");
+        System.out.println("         Dividor:" + numb);
+        System.out.println("         Dividendo:" + numa);
+        System.out.println("         Quociente:" + Resultado);
+        System.out.println("         Resto:" + numa%numb);
+        System.out.println("---------------------------------");
+    }
+    
+}
