@@ -1,0 +1,17 @@
+package Atividade1;
+
+import java.util.Scanner;
+
+public class alg8 {
+	public static void main(String [] args) {
+		Scanner entrada= new Scanner(System.in);
+		System.out.println("Insira nota1:");
+		int numa = entrada.nextInt();
+		System.out.println("Insira nota2:");
+		int numb = entrada.nextInt();
+		System.out.println("Resultado "+ ((numa+numb)/2));
+		
+
+	}
+}
+

@@ -1,0 +1,15 @@
+package Atividade1;
+import java.util.Scanner;
+public class algoritmo5 {
+	public static void main(String args[]) {
+		Scanner entrada= new Scanner(System.in);
+		System.out.println("Insira seu Nome:");
+		String nome = entrada.nextLine();
+		System.out.println("Insira seu Endereço:");
+		String end = entrada.nextLine();
+		System.out.println("Insira seu Telefone:");
+		int tel = entrada.nextInt();
+		System.out.println("Nome: "+nome+" Endereço:  "+ end+ " Telefone: "+ tel);
+
+}
+}
