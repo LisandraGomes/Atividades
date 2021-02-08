@@ -1,6 +1,0 @@
-Package alg1;
-Public classa  Alg1 {
-public static void main(String[] args) {
-System.out.println(“é preciso fazer os algoritmos para  aprender.”)
-}
-}
